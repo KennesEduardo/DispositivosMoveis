@@ -1,0 +1,11 @@
+<Incrementar>:
+    orientation:"vertical"
+    Button:
+        text:"Incrementar"
+        font_size:30
+        on_release: label1.text = str(int(label1.text)+100)
+    Label:
+        id: label1
+        text:"1"
+        font_size:30
+        color:(0.8,0.9,0,1)
